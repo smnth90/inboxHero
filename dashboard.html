@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inboxHero Agent System Dashboard</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #f4f6f8; margin: 0; padding: 20px; color: #333; }
+        h1 { color: #1e293b; margin-bottom: 25px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+        .dashboard-container { display: grid; grid-template-columns: 1fr; gap: 20px; }
+        .pane { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+        .pane-title { font-size: 1.25rem; font-weight: bold; margin-top: 0; margin-bottom: 15px; color: #0f172a; padding-bottom: 8px; border-bottom: 1px solid #f1f5f9; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+        th { background-color: #f8fafc; font-weight: 600; color: #475569; }
+        .conflict { background-color: #fef2f2; border-left: 4px solid #ef4444; color: #991b1b; padding: 8px; border-radius: 4px; font-weight: 600; }
+        .badge { display: inline-block; padding: 4px 8px; font-size: 0.75rem; font-weight: bold; border-radius: 4px; background-color: #e2e8f0; }
+        .badge-pending { background-color: #dbeafe; color: #1e40af; }
+        .badge-flagged { background-color: #fee2e2; color: #991b1b; }
+    </style>
+</head>
+<body>
+
+    <h1>🛡️ inboxHero Operational Command Center</h1>
+    
+    <div class="dashboard-container">
+    
+        <!-- PANE 1: PENDING ACTIONS -->
+        <div class="pane">
+            <div class="pane-title">📥 Pane 1: Pending Actions Gate Queue</div>
+            <table>
+                <tr><th>Message ID</th><th>Proposed Pipeline Action</th><th>Authorization Checkpoint Requirement</th></tr>
+                <tr><td><span class='badge badge-pending'>m003</span></td><td>Send email response to co-founder@aerowing.com</td><td>Irreversible file-system write boundary action requires human authorization checkpoint.</td></tr>
+            </table>
+        </div>
+
+        <!-- PANE 2: FLAGGED SECURITY ANOMALIES -->
+        <div class="pane">
+            <div class="pane-title">🛑 Pane 2: Flagged Threat & Security Isolation Logs</div>
+            <table>
+                <tr><th>Source ID</th><th>Threat Vector Attempted</th><th>System Refusal Mitigation Action</th></tr>
+                <tr><td colspan='3'>No security isolation occurrences logged in the current run.</td></tr>
+            </table>
+        </div>
+
+        <!-- PANE 3: COMMITMENTS CALENDAR -->
+        <div class="pane">
+            <div class="pane-title">📅 Pane 3: Extracted Operational Commitments Calendar</div>
+            <table>
+                <tr><th>Target Datetime</th><th>Extracted Obligation Profile</th><th>Source Citations</th><th>Conflict Status Resolution</th></tr>
+                <tr><td colspan='4'>No chronological obligations extracted from mailbox scanning sweeps.</td></tr>
+            </table>
+        </div>
+        
+    </div>
+
+</body>
+</html>

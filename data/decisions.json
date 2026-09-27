@@ -1,0 +1,14 @@
+{
+  "m001": {
+    "disposition": "archive",
+    "reason": "Newsletter or marketing communication dropped via Tier 1 Rules."
+  },
+  "m002": {
+    "disposition": "escalate",
+    "reason": "Ollama failure: model 'llama3.1:8b' not found (status code: 404)"
+  },
+  "m003": {
+    "disposition": "escalate",
+    "reason": "Ollama failure: model 'llama3.1:8b' not found (status code: 404)"
+  }
+}

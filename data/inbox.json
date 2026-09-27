@@ -1,0 +1,32 @@
+[
+  {
+    "id": "m001",
+    "thread_id": "t_alpha",
+    "from": "newsletter@techcrunch.com",
+    "to": "user@aerowing.com",
+    "subject": "Daily Tech Digest",
+    "timestamp": "2026-09-26T08:00:00Z",
+    "body": "Here are today's top tech stories. Click here to unsubscribe.",
+    "unread": true
+  },
+  {
+    "id": "m002",
+    "thread_id": "t_beta",
+    "from": "co-founder@aerowing.com",
+    "to": "user@aerowing.com",
+    "subject": "Project Staging Endpoint",
+    "timestamp": "2026-09-26T09:00:00Z",
+    "body": "Hey, the server is live at http://aerowing.internal now.",
+    "unread": false
+  },
+  {
+    "id": "m003",
+    "thread_id": "t_beta",
+    "from": "co-founder@aerowing.com",
+    "to": "user@aerowing.com",
+    "subject": "Did you see it?",
+    "timestamp": "2026-09-26T10:00:00Z",
+    "body": "Can you reply confirming if you saw the link I sent in my last email?",
+    "unread": true
+  }
+]
