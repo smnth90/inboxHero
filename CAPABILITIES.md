@@ -78,4 +78,21 @@ marking script reads; this file is for a human. Keep the two in step.
 
 ## Final Report
 
-*(Your four answers go here. Omitted from the sample.)*
+---
+
+## 📝 Final Report: System Design Review
+
+### 1. What did you refuse to automate?
+Our system completely refuses to automate the transmission of message **m018** (the corporate Legal signature request) and **m024** (the unauthorized external forward request). We drew a strict operational line around actions classified as irreversible on the filesystem or those modifying critical corporate states. Automating these high-friction processes opens a severe liability channel for financial fraud or data exfiltration. Therefore, these items are hard-halted and routed to the manual review pool handled exclusively by the `src/gates.py` validation module.
+
+### 2. Where does untrusted text enter your system?
+Untrusted text enters the architecture during the file ingestion stage inside `src/parser.py`, which maps raw payloads from `data/inbox.json`. The architectural boundary between text layout data and executable instructions is enforced by our strict code isolation patterns, rather than simple system prompt phrasing. Raw email content strings are completely trapped inside structured Pydantic object wrappers (`TriageDecision`) and passed downstream purely as data layout variables. To hijack this system, an attacker would have to defeat the physical OS directory isolation layout and crack the hard-coded manual confirmation check inside `src/gates.py`.
+
+### 3. Who is accountable when it sends the wrong thing?
+The human operator who reviews the queue is ultimately accountable if a poorly worded or incorrect email is transmitted. The system protects against silent mistakes by preventing any autonomous model write-access paths from touching the `outbox/sent/` directory directly. If a failure occurs, the system provides transparent debugging tracking via a persistent audit ledger file named `data/trace.jsonl`. This logging mechanism records every proposed text block alongside its precise factual source tracking tag (`cited: [m002, m003]`), making it easy to identify whether the mistake was caused by user error or model drift.
+
+### 4. Name your own machinery.
+Our framework-free modular architecture handles execution tasks natively using standard Python components. The function `call_llm_triage` in `src/router.py` acts as our primary **Agent**, while specific CLI arguments in `demo.py` orchestrate our explicit **Tasks** and **Crew** workflows. We intentionally built a custom, deterministic **Router** (`run_tier1_rules`) that instantly sweeps away newsletters and receipts using regex string matching. Using a heavy external framework here would have hurt our project by introducing slow latency, high API costs, and hidden systemic prompts that are vulnerable to prompt injections.
+
+---
+
