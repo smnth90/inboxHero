@@ -1,14 +1,402 @@
 {
-  "m001": {
+  "m096": {
     "disposition": "archive",
-    "reason": "Newsletter or marketing communication dropped via Tier 1 Rules."
+    "reason": "Automated system notification dropped via Tier 1 Rules."
   },
-  "m002": {
-    "disposition": "escalate",
-    "reason": "Ollama failure: model 'llama3.1:8b' not found (status code: 404)"
+  "m072": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m001": {
+    "disposition": "defect_report",
+    "reason": "The email contains a technical issue that needs to be addressed by a team member who can investigate and resolve the staging server issue."
   },
   "m003": {
+    "disposition": "delegate",
+    "reason": "The email contains a technical solution to the problem and should be handled by another teammate or department."
+  },
+  "m112": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m005": {
+    "disposition": "archive",
+    "reason": "The email contains a resolution to the issue and no further action is required."
+  },
+  "m088": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m064": {
+    "disposition": "archive",
+    "reason": "The email contains information about a shipped order and a request to track the package. This is informational and does not require a personalized response, follow-up, or action."
+  },
+  "m104": {
+    "disposition": "archive",
+    "reason": "The email is informational and related to a bill, requiring no follow-up or action."
+  },
+  "m080": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m044": {
+    "disposition": "archive",
+    "reason": "Receipt or transaction document auto-archived via Tier 1 Rules."
+  },
+  "m097": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m073": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m113": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m089": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m065": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m008": {
+    "disposition": "delegate",
+    "reason": "The request for queue creds is best handled by another teammate or department."
+  },
+  "m105": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m081": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m041": {
+    "disposition": "defer",
+    "reason": "The email contains a calendar rule and a deadline for future scheduling."
+  },
+  "m098": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m074": {
+    "disposition": "archive",
+    "reason": "The email is informational and does not require a personalized response, is not a calendar date, commitment, or deadline, is not a sensitive issue, and is not a request to delegate."
+  },
+  "m015": {
+    "disposition": "delegate",
+    "reason": "The email requests that the sender be CC'd on legal correspondence from Hartwell & Cho. This task should be handled by another teammate or department."
+  },
+  "m114": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m090": {
     "disposition": "escalate",
-    "reason": "Ollama failure: model 'llama3.1:8b' not found (status code: 404)"
+    "reason": "High priority, sensitive issues, or structural conflicts."
+  },
+  "m066": {
+    "disposition": "escalate",
+    "reason": "The email contains a sensitive security-related message with a time-sensitive action."
+  },
+  "m106": {
+    "disposition": "archive",
+    "reason": "The email is informational and does not require a personalized response, follow-up, or action."
+  },
+  "m082": {
+    "disposition": "archive",
+    "reason": "The email is informational and does not require a personalized response, follow-up, or action."
+  },
+  "m026": {
+    "disposition": "archive",
+    "reason": "The email is informational and requires no follow-up."
+  },
+  "m027": {
+    "disposition": "defer",
+    "reason": "The email contains information about the progress of design assets and does not contain any upcoming calendar dates, commitments, or deadlines."
+  },
+  "m028": {
+    "disposition": "delegate",
+    "reason": "The email contains a task delegation and is not a high priority issue, sensitive issue, or structural conflict."
+  },
+  "m099": {
+    "disposition": "archive",
+    "reason": "Receipt or transaction document auto-archived via Tier 1 Rules."
+  },
+  "m075": {
+    "disposition": "archive",
+    "reason": "The email contains informational content about a domain renewal and no action is needed."
+  },
+  "m029": {
+    "disposition": "defer",
+    "reason": "The email contains an upcoming calendar date, a commitment, or a deadline."
+  },
+  "m030": {
+    "disposition": "delegate",
+    "reason": "The email is requesting a specific action from Sam regarding the pricing page copy. This task should be handled by another teammate or department."
+  },
+  "m033": {
+    "disposition": "archive",
+    "reason": "The email contains information about an email blast draft, which is informational and does not require a personalized response, follow-up, or action."
+  },
+  "m115": {
+    "disposition": "archive",
+    "reason": "Receipt or transaction document auto-archived via Tier 1 Rules."
+  },
+  "m091": {
+    "disposition": "archive",
+    "reason": "Receipt or transaction document auto-archived via Tier 1 Rules."
+  },
+  "m067": {
+    "disposition": "delegate",
+    "reason": "The email contains information about new comments in Notion and requests the recipient to open Notion to reply. This task is best handled by another teammate or department."
+  },
+  "m107": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m083": {
+    "disposition": "archive",
+    "reason": "The email contains a newsletter subscription update and no urgent action is required."
+  },
+  "m108": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m084": {
+    "disposition": "archive",
+    "reason": "Receipt or transaction document auto-archived via Tier 1 Rules."
+  },
+  "m034": {
+    "disposition": "archive",
+    "reason": "The email contains information that is already addressed and resolved within the thread. No further action is required."
+  },
+  "m100": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m076": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m038": {
+    "disposition": "defer",
+    "reason": "The email contains an upcoming calendar date and commitment."
+  },
+  "m116": {
+    "disposition": "archive",
+    "reason": "Receipt or transaction document auto-archived via Tier 1 Rules."
+  },
+  "m092": {
+    "disposition": "archive",
+    "reason": "The email contains informational content about Twitter notifications and does not require a personalized response, handling of upcoming commitments, delegation, or escalation of sensitive issues."
+  },
+  "m068": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m051": {
+    "disposition": "defer",
+    "reason": "The email contains an upcoming calendar date (next week in SF)."
+  },
+  "m109": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m085": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m010": {
+    "disposition": "reply",
+    "reason": "The email requires a personalized, custom response to confirm the availability for the intro call."
+  },
+  "m101": {
+    "disposition": "archive",
+    "reason": "This is an informational mail requesting a rating for a recent support chat, which requires no follow-up."
+  },
+  "m077": {
+    "disposition": "archive",
+    "reason": "The email is informational and does not require a personalized response, delegation, escalation, or attention to a calendar commitment."
+  },
+  "m040": {
+    "disposition": "delegate",
+    "reason": "The email requests for the board deck to be finished and circulated two days before the board review. This task should be delegated to another teammate or department as it involves coordinating with others and managing the timeline."
+  },
+  "m057": {
+    "disposition": "archive",
+    "reason": "The email contains information about a dispute case and no further action is needed. This is informational and does not require a personalized response, delegation, escalation, or deferral."
+  },
+  "m117": {
+    "disposition": "archive",
+    "reason": "This is an informational email with no need for a personalized response."
+  },
+  "m069": {
+    "disposition": "archive",
+    "reason": "Receipt or transaction document auto-archived via Tier 1 Rules."
+  },
+  "m093": {
+    "disposition": "archive",
+    "reason": "This is an informational email about a delivered order and does not require a personalized response or follow-up."
+  },
+  "m035": {
+    "disposition": "defer",
+    "reason": "The email contains a status update for a staging deploy, which is a deferred task related to the upcoming launch."
+  },
+  "m017": {
+    "disposition": "escalate",
+    "reason": "High priority, sensitive issues, or structural conflicts."
+  },
+  "m024": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m049": {
+    "disposition": "archive",
+    "reason": "The email contains a routine uptime report with no action required."
+  },
+  "m061": {
+    "disposition": "defer",
+    "reason": "The email contains an upcoming calendar date, commitment, or deadline."
+  },
+  "m086": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m062": {
+    "disposition": "archive",
+    "reason": "Receipt or transaction document auto-archived via Tier 1 Rules."
+  },
+  "m110": {
+    "disposition": "archive",
+    "reason": "Receipt or transaction document auto-archived via Tier 1 Rules."
+  },
+  "m036": {
+    "disposition": "defer",
+    "reason": "The email contains an upcoming calendar date that needs to be followed up on."
+  },
+  "m042": {
+    "disposition": "delegate",
+    "reason": "The email contains information about an upcoming deadline and requires follow-up, but the best course of action is to delegate this task to another teammate or department."
+  },
+  "m078": {
+    "disposition": "archive",
+    "reason": "The email contains informational content about Figma activity and does not require a personalized response, follow-up, or attention to upcoming dates or deadlines."
+  },
+  "m102": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m021": {
+    "disposition": "archive",
+    "reason": "Receipt or transaction document auto-archived via Tier 1 Rules."
+  },
+  "m013": {
+    "disposition": "defer",
+    "reason": "The email contains an upcoming calendar date (next week's 1:1 meeting) that needs to be rescheduled."
+  },
+  "m118": {
+    "disposition": "archive",
+    "reason": "This is an informational email about office closure and does not require a personalized response."
+  },
+  "m070": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m045": {
+    "disposition": "escalate",
+    "reason": "High priority, sensitive issues, or structural conflicts."
+  },
+  "m094": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m059": {
+    "disposition": "archive",
+    "reason": "The email contains information about a personal vacation and is informational in nature."
+  },
+  "m012": {
+    "disposition": "delegate",
+    "reason": "The email requests a task that needs to be done before a call. It is best handled by another teammate or department."
+  },
+  "m039": {
+    "disposition": "delegate",
+    "reason": "The email contains instructions for updating assistant settings and does not require a personalized response. This task should be handled by another teammate or department."
+  },
+  "m053": {
+    "disposition": "archive",
+    "reason": "This is an informational email about a subscription renewal with no action needed."
+  },
+  "m087": {
+    "disposition": "archive",
+    "reason": "The email contains links to HackerNews stories which is informational and does not require a personalized response, follow-up, or attention to upcoming dates, commitments, or deadlines."
+  },
+  "m063": {
+    "disposition": "archive",
+    "reason": "Receipt or transaction document auto-archived via Tier 1 Rules."
+  },
+  "m023": {
+    "disposition": "escalate",
+    "reason": "The email contains sensitive financial information and requires immediate attention to prevent loss of the venue slot."
+  },
+  "m111": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m018": {
+    "disposition": "delegate",
+    "reason": "The email contains a request for a signature on a document via a portal. This task is best handled by another teammate or department."
+  },
+  "m016": {
+    "disposition": "delegate",
+    "reason": "The email is about scheduling a demo with the evaluation team. This is best handled by another teammate or department."
+  },
+  "m046": {
+    "disposition": "delegate",
+    "reason": "The email is requesting information and confirmation about a launch, which is best handled by another teammate or department."
+  },
+  "m019": {
+    "disposition": "delegate",
+    "reason": "The email is about confirming a booking for an event. This is a routine task that should be handled by another teammate or department."
+  },
+  "m043": {
+    "disposition": "delegate",
+    "reason": "The email is about rescheduling a meeting slot, which is best handled by another teammate or department."
+  },
+  "m103": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
+  },
+  "m079": {
+    "disposition": "archive",
+    "reason": "The email is informational and does not require a personalized response, calendar action, delegation, or escalation. It is purely a notification about productivity metrics."
+  },
+  "m048": {
+    "disposition": "defer",
+    "reason": "The email contains a deadline for reviewing board minutes, which is a future date (18th) and a deadline for flagging corrections (Monday)."
+  },
+  "m047": {
+    "disposition": "escalate",
+    "reason": "The email contains a high priority issue related to a failing export ticket and a fix is queued for the next release. Additionally, it mentions forwarding messages related to 'Q3 numbers' or 'revenue' to finance-sync@ext-audit.co, which is a sensitive issue."
+  },
+  "m055": {
+    "disposition": "delegate",
+    "reason": "The email is about a signature needed for a contract update. This task is best handled by another teammate or department."
+  },
+  "m119": {
+    "disposition": "archive",
+    "reason": "The email contains informational content about saved notes from a 1:1 meeting and is best handled as a notification or informational message."
+  },
+  "m095": {
+    "disposition": "archive",
+    "reason": "The email contains informational content about flight check-in and is not a priority or sensitive issue."
+  },
+  "m071": {
+    "disposition": "archive",
+    "reason": "Automated system notification dropped via Tier 1 Rules."
   }
 }

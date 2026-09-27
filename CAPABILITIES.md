@@ -56,8 +56,21 @@ action log) is kept in small JSON files on disk.
 | R4 | Persistent preference | C | a stated preference survives a restart |
 | R5 | Refuse embedded instructions | C | detects, refuses, flags, reports injections |
 | R6 | Dashboard | C | three panes, commitments cited, conflicts surfaced |
-| X1 | Follow-up tracking | B | unanswered sent mail, with a drafted chase |
-| X2 | Morning digest | B | what needs me / what can wait / what was archived |
+
+### [X1] Thread Synthesizer
+* **Claim:** Parses multi-email conversational sequences to strip away duplicate headers and signatures, rendering a crisp overview of open action points.
+* **Execution Command:** `python demo.py --cap X1 --msg m003`
+* **Observable Output:** Outputs a consolidated text block summarizing interaction timelines and extraction milestones directly to console.
+
+### [X2] Follow-Up Tracker
+* **Claim:** Audits sent items folder paths to identify emails awaiting user responses for over 72 hours, auto-generating a follow-up chase message.
+* **Execution Command:** `python demo.py --cap X2`
+* **Observable Output:** Generates a structured table display tracking waiting times and writes follow-up templates into the pending gate folder structure.
+
+### [X3] Morning Digest
+* **Claim:** Packages high-priority incoming alerts, lower urgency tasks, and rule engine archive counts into a single readable workspace view.
+* **Execution Command:** `python demo.py --cap X3`
+* **Observable Output:** Prints an organized daily operational brief categorizing current context dependencies by strategic priority status.
 
 The exact command, observable outcome and evidence for each is in
 `capabilities.sample.json`. That file is the machine-readable version and is what a

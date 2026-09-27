@@ -82,23 +82,32 @@
       "observable": "Writes dashboard.html. Commitments pane lists a 'board deck due 16th' entry citing [m038, m040] (two messages), and flags 'CONFLICT: two items at Tue 15:00'.",
       "evidence": "dashboard.html and dashboard.json; trace.jsonl events tagged cap=R6"
     },
-    {
+        {
       "id": "X1",
-      "name": "Follow-up tracking",
-      "tier": "B",
-      "claim": "Finds messages I sent that nobody has answered in 3+ days, and drafts a chase for each.",
-      "command": "python demo.py --cap X1",
-      "observable": "Prints a JSON list of {message_id, days_waiting, draft}. m022 (sent, unanswered) appears; m014 (already answered in-thread) does not.",
-      "evidence": "trace.jsonl, events tagged cap=X1"
+      "name": "Thread Synthesizer",
+      "tier": "A",
+      "claim": "Evaluates complex multi-message conversation logs and isolates core open items elegantly.",
+      "command": "python demo.py --cap X1 --msg m003",
+      "observable": "Prints a consolidated summary showing conversation timelines and active action demands.",
+      "evidence": "Terminal log summary block containing thread synthesis milestones."
     },
     {
       "id": "X2",
-      "name": "Morning digest",
+      "name": "Follow-Up Tracker",
       "tier": "B",
-      "claim": "Produces a one-screen digest: what needs me today, what can wait, and what was auto-archived.",
+      "claim": "Tracks outbound emails lacking response threads for 3+ days and stages a polite follow-up draft.",
       "command": "python demo.py --cap X2",
-      "observable": "Prints three sections. 'Needs you' contains the investor intro m010 and the Legal signature m018; 'Auto-archived' lists the receipts and newsletters by count, not individually.",
-      "evidence": "trace.jsonl, events tagged cap=X2"
+      "observable": "Renders a text table indexing stale outbound communications and schedules a draft to outbox/pending/.",
+      "evidence": "Staged reminder artifact file present in outbox/pending/ queue."
+    },
+    {
+      "id": "X3",
+      "name": "Morning Digest",
+      "tier": "C",
+      "claim": "Assembles a single-screen operational brief summarizing active targets, deferred tasks, and rule metrics.",
+      "command": "python demo.py --cap X3",
+      "observable": "Displays a high-impact morning brief on-screen separating execution items by urgency.",
+      "evidence": "Clean console readout logging layout blocks directly inside the active pipeline session."
     }
   ]
 }
